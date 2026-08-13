@@ -8,7 +8,7 @@ Static company profile website prepared for vendor and partner introduction.
 - `styles.css` - website styling
 - `google-sites-content.md` - copy draft for Google Sites
 - `cisco-vendor-readiness-checklist.md` - Cisco supplier readiness checklist
-- `Introduction Hiflowsolution CO.,LTD_Ver.2.0.pdf` - company profile PDF
+- `hiflow's profile_Rev7.0_PTT.pdf` - company profile PDF
 - `cert-468100923949179-1-1-E10091221104729.pdf` - certificate document
 
 ## GitHub Pages

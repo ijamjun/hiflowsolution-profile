@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hiflowsolution Co., Ltd. | Company Profile</title>
+  <title>Hiflowsolution Co., Ltd. | R&D and Technology</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,142 +13,198 @@
       <span>Hiflowsolution Co., Ltd.</span>
     </a>
     <nav aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#services">Capabilities</a>
-      <a href="#readiness">Vendor Readiness</a>
-      <a href="#contact">Contact</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#capabilities" data-i18n="navCapabilities">R&D</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
     </nav>
+    <div class="language-switcher" aria-label="Language selector">
+      <button type="button" data-lang="en" class="active">EN</button>
+      <button type="button" data-lang="th">TH</button>
+      <button type="button" data-lang="ja">JA</button>
+    </div>
   </header>
 
   <main id="home">
     <section class="hero">
+      <svg class="circuit-flow" viewBox="0 0 1200 470" aria-hidden="true" focusable="false">
+        <path d="M40 112 H240 V78 H415 H560 V142 H760 H1120" />
+        <path d="M80 286 H290 V238 H470 V306 H660 V232 H930 V196 H1160" />
+        <path d="M180 400 H390 V356 H590 H740 V316 H1010" />
+        <path d="M650 54 V128 H715 V208 H820 V286 H1090" />
+        <path d="M360 40 V118 H300 V182 H455 V252" />
+        <path d="M980 42 V104 H900 V162 H1038 V246" />
+        <circle cx="240" cy="112" r="6" />
+        <circle cx="560" cy="142" r="6" />
+        <circle cx="760" cy="142" r="6" />
+        <circle cx="470" cy="306" r="6" />
+        <circle cx="660" cy="306" r="6" />
+        <circle cx="930" cy="232" r="6" />
+        <circle cx="740" cy="356" r="6" />
+        <circle cx="715" cy="128" r="6" />
+        <circle cx="900" cy="162" r="6" />
+      </svg>
       <div class="hero-copy">
-        <p class="eyebrow">Company profile for enterprise technology procurement</p>
-        <h1>Reliable IT and system integration partner for business infrastructure.</h1>
-        <p class="lead">
-          Hiflowsolution Co., Ltd. supports organizations with practical technology services,
-          implementation capability, and responsive coordination for vendor and project
-          engagement.
+        <p class="eyebrow" data-i18n="heroEyebrow">R&D / Engineering / Technology</p>
+        <h1 data-i18n="heroTitle">R&D partner for industrial technology solutions.</h1>
+        <p class="lead" data-i18n="heroLead">
+          Research, design, special materials, and field engineering support for practical enterprise projects.
         </p>
         <div class="actions">
-          <a class="button primary" href="Introduction Hiflowsolution CO.,LTD_Ver.2.0.pdf">Download Company Profile</a>
-          <a class="button secondary" href="#contact">Contact Vendor Team</a>
+          <a class="button primary download-button" href="hiflow's profile_Rev7.0_PTT.pdf">
+            <span class="button-kicker" data-i18n="downloadKicker">Download</span>
+            <span data-i18n="downloadProfile">Company Profile</span>
+          </a>
+          <a class="button secondary" href="#projects" data-i18n="viewProjects">View Project Work</a>
         </div>
       </div>
-      <aside class="hero-panel" aria-label="Company highlights">
-        <div>
-          <span class="metric">Thailand</span>
-          <span class="label">Local coordination and delivery</span>
-        </div>
-        <div>
-          <span class="metric">IT / SI</span>
-          <span class="label">Technology services and integration</span>
-        </div>
-        <div>
-          <span class="metric">B2B</span>
-          <span class="label">Procurement-ready company profile</span>
-        </div>
-      </aside>
     </section>
 
     <section id="about" class="section">
       <div class="section-heading">
-        <p class="eyebrow">About us</p>
-        <h2>Focused on dependable technology execution.</h2>
+        <p class="eyebrow" data-i18n="aboutEyebrow">Company profile</p>
+        <h2 data-i18n="aboutTitle">Experienced team for practical engineering work.</h2>
       </div>
-      <div class="two-column">
-        <p>
-          Hiflowsolution Co., Ltd. is a Thailand-based technology company providing IT-related
-          services, system integration, and business support for organizations that require
-          reliable delivery, clear coordination, and accountable post-project service.
-        </p>
-        <p>
-          This website is prepared as a concise online company profile for vendor review,
-          procurement introduction, and partner engagement. Company legal details, certifications,
-          and supporting documents should be verified before submission to Cisco or any enterprise
-          buyer.
+      <div class="compact-copy">
+        <p data-i18n="aboutBody1">
+          Established on October 3, 2011, Hiflowsolution Co., Ltd. focuses on R&D, design, special materials, inspection, control systems, network infrastructure, and project implementation.
         </p>
       </div>
+      <dl class="facts">
+        <div>
+          <dt data-i18n="factLegal">Legal entity</dt>
+          <dd>Hiflowsolution Co., Ltd.</dd>
+        </div>
+        <div>
+          <dt data-i18n="factReg">Registration no.</dt>
+          <dd>0105554131793</dd>
+        </div>
+        <div>
+          <dt data-i18n="factTeam">Core team</dt>
+          <dd data-i18n="factTeamValue">Managed by electrical engineering and IT professionals</dd>
+        </div>
+        <div>
+          <dt data-i18n="factArea">Service area</dt>
+          <dd>Bangkok / Thailand / ASEAN</dd>
+        </div>
+      </dl>
     </section>
 
-    <section id="services" class="section band">
+    <section id="capabilities" class="section band">
       <div class="section-heading">
-        <p class="eyebrow">Capabilities</p>
-        <h2>Core service areas</h2>
+        <p class="eyebrow" data-i18n="capEyebrow">Technology capabilities</p>
+        <h2 data-i18n="capTitle">From research concept to field service.</h2>
       </div>
       <div class="service-grid">
         <article>
-          <h3>Network Infrastructure</h3>
-          <p>Planning, procurement support, deployment coordination, and maintenance for enterprise network environments.</p>
+          <h3 data-i18n="cap1Title">R&D and Design</h3>
+          <p data-i18n="cap1Body">Applied research, engineering design, prototype support, and special material sourcing.</p>
         </article>
         <article>
-          <h3>System Integration</h3>
-          <p>Integration of hardware, software, connectivity, and operational workflows for business projects.</p>
+          <h3 data-i18n="cap2Title">Control and Robotics</h3>
+          <p data-i18n="cap2Body">DC motor control, phenotyping robot concepts, simulation, and precision motion-control support.</p>
         </article>
         <article>
-          <h3>IT Support & Maintenance</h3>
-          <p>Technical support, troubleshooting, preventive maintenance, and service coordination for business users.</p>
+          <h3 data-i18n="cap3Title">Infrastructure and Security</h3>
+          <p data-i18n="cap3Body">Cisco network, LAN/WAN, wireless, firewall, CCTV, and site maintenance support.</p>
         </article>
         <article>
-          <h3>Security & Compliance Support</h3>
-          <p>Support for security-aware infrastructure, documentation, and supplier compliance preparation.</p>
+          <h3 data-i18n="cap4Title">Inspection and Maintenance</h3>
+          <p data-i18n="cap4Body">Electrical inspection, thermal imaging, preventive maintenance, and implementation.</p>
         </article>
       </div>
     </section>
 
-    <section id="readiness" class="section">
+    <section id="projects" class="section">
       <div class="section-heading">
-        <p class="eyebrow">Cisco vendor readiness</p>
-        <h2>Information prepared for onboarding review</h2>
+        <p class="eyebrow" data-i18n="projectsEyebrow">Selected work</p>
+        <h2 data-i18n="projectsTitle">Selected field work.</h2>
       </div>
-      <div class="readiness">
-        <div>
-          <h3>Company documents</h3>
-          <ul>
-            <li>Business license or company registration document</li>
-            <li>Official tax document</li>
-            <li>Certificate or supporting qualification documents</li>
-            <li>DUNS Number, if required for Cisco supplier onboarding</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Operational contacts</h3>
-          <ul>
-            <li>Primary business contact</li>
-            <li>Finance or tax contact</li>
-            <li>Group email alias for purchase orders</li>
-            <li>Escalation contact for procurement updates</li>
-          </ul>
-        </div>
+      <div class="gallery">
+        <figure>
+          <img src="assets/gallery/thermal-inspection.jpg" alt="Thermal imaging inspection">
+          <figcaption data-i18n="gallery1">Thermal imaging for electrical inspection</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/gallery/electrical-testing.jpg" alt="Electrical testing equipment">
+          <figcaption data-i18n="gallery2">Electrical measurement and field testing</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/gallery/cctv-field-maintenance.jpg" alt="CCTV field maintenance">
+          <figcaption data-i18n="gallery3">CCTV field maintenance and service coordination</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/gallery/cctv-monitoring-test.jpg" alt="CCTV monitoring test">
+          <figcaption data-i18n="gallery4">CCTV monitoring and verification</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/gallery/control-cabinet-service.jpg" alt="Control cabinet service">
+          <figcaption data-i18n="gallery5">Control cabinet inspection and maintenance</figcaption>
+        </figure>
       </div>
+      <div class="references">
+        <span data-i18n="customerRefs">Customer references: Kasetsart University, PTT, and STE. Detailed project references are confidential.</span>
+      </div>
+    </section>
+
+    <section id="research" class="research-strip">
+      <div>
+        <span data-i18n="researchTitle">Research references</span>
+        <p data-i18n="researchDownloadNote">Downloadable academic papers and prototype references supporting the R&D profile.</p>
+      </div>
+      <a class="download-link" href="assets/papers/automated-ambu-ventilator-negative-pressure-capsule.pdf">
+        <span data-i18n="downloadKicker">Download</span>
+        <strong data-i18n="paper1Title">Automated AMBU ventilator and negative pressure capsule</strong>
+      </a>
+      <a class="download-link" href="assets/papers/fitsmc-phenotyping-robot-sice-fes-2025.pdf">
+        <span data-i18n="downloadKicker2">Download</span>
+        <strong data-i18n="paper2Title">FITSMC for phenotyping robot servo motor systems</strong>
+      </a>
     </section>
 
     <section id="contact" class="section contact">
-      <div>
-        <p class="eyebrow">Contact</p>
-        <h2>Hiflowsolution Co., Ltd.</h2>
-        <p>Please update this section with the verified company address, telephone number, email alias, and responsible contact person before publishing.</p>
+      <div class="contact-intro">
+        <img src="assets/brand/hiflow-logo-transparent.png" alt="Hiflowsolution logo">
+        <div>
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+          <h2>Hiflowsolution Co., Ltd.</h2>
+        </div>
+        <p data-i18n="contactIntro">For R&D collaboration, vendor review, procurement, or project coordination, please contact the company representative below.</p>
       </div>
-      <dl>
+      <dl class="contact-list">
+        <div>
+          <dt data-i18n="contactPerson">Contact person</dt>
+          <dd>Mr. Watchara Jamnuch, Managing Director</dd>
+        </div>
         <div>
           <dt>Email</dt>
-          <dd>vendor@hiflowsolution.com</dd>
+          <dd>vendor@hiflowsolution.com<br>watchara.hfs@gmail.com</dd>
         </div>
         <div>
-          <dt>Phone</dt>
-          <dd>+66 XX XXX XXXX</dd>
+          <dt data-i18n="phone">Phone</dt>
+          <dd>+66 089 307 0252<br>+66 082 367 7487</dd>
         </div>
         <div>
-          <dt>Address</dt>
-          <dd>Bangkok, Thailand</dd>
+          <dt>LINE</dt>
+          <dd>Ijamnuch</dd>
+        </div>
+        <div>
+          <dt data-i18n="address">Address</dt>
+          <dd>34/35 Soi Lat Phrao 23, Chan Kasem, Chatuchak, Bangkok 10900, Thailand</dd>
+        </div>
+        <div>
+          <dt data-i18n="registeredAddress">Registered address</dt>
+          <dd>34/35 ซอยลาดพร้าว 23 แขวงจันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900</dd>
         </div>
       </dl>
     </section>
   </main>
 
   <footer>
-    <span>© 2026 Hiflowsolution Co., Ltd.</span>
-    <span>Prepared for vendor and partner introduction.</span>
+    <span>&copy; 2026 Hiflowsolution Co., Ltd.</span>
+    <span data-i18n="footerText">R&D, engineering design, and applied technology services.</span>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
