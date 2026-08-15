@@ -74,7 +74,7 @@ Address: 34/35 Soi Lat Phrao 23, Chan Kasem, Chatuchak, Bangkok 10900, Thailand
 
 Registered address in Thai: 34/35 ซอยลาดพร้าว 23 แขวงจันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900
 
-Email: vendor@hiflowsolution.com, watchara.hfs@gmail.com
+Email: contact@hiflow-solution.com, watchara.hfs@gmail.com
 
 Phone: +66 089 307 0252, +66 082 367 7487
 
